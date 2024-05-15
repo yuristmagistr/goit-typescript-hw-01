@@ -5,9 +5,7 @@ type User1 = {
   password: string;
 };
 
-function createOrUpdateUser<T extends User>(initialValues: Partial<T>) {
-  // Оновлення користувача
-}
+function createOrUpdateUser(initialValues: Partial<User1>) {}
 
 createOrUpdateUser({
   email: "user@mail.com",
